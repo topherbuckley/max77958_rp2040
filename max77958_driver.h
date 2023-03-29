@@ -34,6 +34,8 @@
 #ifndef PRJ_DEVICE_MAX77958_H_
 #define PRJ_DEVICE_MAX77958_H_
 
+#include <stdint.h>
+
 #undef  __CONST_FFS
 #define __CONST_FFS(_x) \
 	((_x) & 0x0F ? \
@@ -1010,6 +1012,5 @@ struct typec_pd_channel_state {
 };
 
 struct typec_pd_channel_state max77958_data;
-
 
 #endif /* PRJ_DEVICE_MAX77958_H_ */
